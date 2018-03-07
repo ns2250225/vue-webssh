@@ -5,6 +5,7 @@
 - pip install -r requirement.txt
 
 # 启动
+- 配置server.py里的服务器信息
 - python serever.py
 - cd webssh
 - npm run dev 
