@@ -8,7 +8,7 @@
 - 配置server.py里的服务器信息
 - python serever.py
 - cd webssh
-- npm run dev 
+- npm install && npm run dev 
 - 访问: http://localhost:8080/#/
 
 # 效果图
