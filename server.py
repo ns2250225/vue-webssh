@@ -37,8 +37,7 @@ class webSSHServer(tornado.websocket.WebSocketHandler):
         self.sshclient.load_system_host_keys()
         self.sshclient.set_missing_host_key_policy(paramiko.AutoAddPolicy())
         self.sshclient.connect(HOSTS, PORT, USERNAME, PASSWORD)
-        self.chan = self.sshclient.invoke_shell(
-            term='xterm', width=800, height=800)
+        self.chan = self.sshclient.invoke_shell(term='xterm')
         self.chan.settimeout(0)
         t1 = MyThread(999, self)
         t1.setDaemon(True)
