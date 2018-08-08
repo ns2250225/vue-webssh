@@ -1,6 +1,10 @@
 # vue-webssh
 一个基于vue，xtermjs，tornado，paramiko的web终端
 
+# 机器环境
+- win10
+- python3.6
+
 # 安装
 - pip install -r requirement.txt
 
